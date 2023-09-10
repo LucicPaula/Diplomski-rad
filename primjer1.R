@@ -58,23 +58,5 @@ labs(x=paste0("PC1: ", pov[1]),
      y=paste0("PC2: ", pov[2]))
 
 
-#3d plot
-# library(digest)
-# a <- 'test'
-# print(a)
-# a <- sapply(data$Sector, digest, algo = "sha1")
-# hex <- paste0('#', substr(a, 0, 6))
-# print(hex)
-# 
-# scatterplot3d(data$PC1, 
-#               data$PC2, 
-#               data$PC3, 
-#               color = hex, 
-#               pch = 19, 
-#               main ="Figure 3: 3D Scatter Plot", 
-#               xlab="PC1",
-#               ylab="PC2",
-#               zlab="PC3")
-
 
 
